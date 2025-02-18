@@ -1,3 +1,4 @@
+import saludarHora from "./saludador.js";
 import saludar from "./saludador.js";
 
 const h1 = document.querySelector("#resultado-saludo");
@@ -9,7 +10,7 @@ form.addEventListener("submit", (event) => {
 
   const name = nameInput.value.trim();
   if (name) {
-    h1.textContent = saludar(name);
+    h1.textContent = saludarHora(name);
   } else {
     h1.textContent = "Hola";
   }

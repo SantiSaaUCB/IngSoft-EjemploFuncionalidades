@@ -15,7 +15,7 @@
     "semantic-commits-on": "node semantic-commits.js enable",
     "semantic-commits-off": "node semantic-commits.js disabled"
   },
-  "author": "Israel Antezana R.",
+  "author": "Santiago Saavedra",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.25.2",
